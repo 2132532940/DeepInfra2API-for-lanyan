@@ -35,23 +35,61 @@ export default {
         object: "list",
         data: [
           {
-            id: "deepseek-ai/DeepSeek-R1-0528-Turbo",
-            object: "model",
-            created: 1624980000,
-            owned_by: "deepseek-ai"
-          },
-          {
-            id: "deepseek-ai/DeepSeek-V3-0324-Turbo",
-            object: "model",
-            created: 1632000000,
-            owned_by: "deepseek-ai"
-          },
-          {
-            id: "deepseek-ai/DeepSeek-R1-Distill-Llama-70B",
-            object: "model",
-            created: 1640000000,
-            owned_by: "deepseek-ai"
-          }
+      "id": "openai/gpt-oss-120b",
+      "object": "model",
+      "created": 1700000000,
+      "owned_by": "openai",
+      "model_name": "openai/gpt-oss-120b",
+      "display_name": "OpenAI GPT OSS 120B"
+    },
+    {
+      "id": "moonshotai/Kimi-K2-Instruct",
+      "object": "model",
+      "created": 1700000000,
+      "owned_by": "moonshotai",
+      "model_name": "moonshotai/Kimi-K2-Instruct",
+      "display_name": "Kimi K2"
+    },
+    {
+      "id": "zai-org/GLM-4.5",
+      "object": "model",
+      "created": 1700000000,
+      "owned_by": "zai-org",
+      "model_name": "zai-org/GLM-4.5",
+      "display_name": "GLM 4.5"
+    },
+    {
+      "id": "Qwen/Qwen3-Coder-480B-A35B-Instruct-Turbo",
+      "object": "model",
+      "created": 1700000000,
+      "owned_by": "Qwen",
+      "model_name": "Qwen/Qwen3-Coder-480B-A35B-Instruct-Turbo",
+      "display_name": "Qwen3 Coder Turbo"
+    },
+    {
+      "id": "deepseek-ai/DeepSeek-R1-0528-Turbo",
+      "object": "model",
+      "created": 1700000000,
+      "owned_by": "deepseek-ai",
+      "model_name": "deepseek-ai/DeepSeek-R1-0528-Turbo",
+      "display_name": "DeepSeek R1 0528 Turbo"
+    },
+    {
+      "id": "deepseek-ai/DeepSeek-V3-0324-Turbo",
+      "object": "model",
+      "created": 1700000000,
+      "owned_by": "deepseek-ai",
+      "model_name": "deepseek-ai/DeepSeek-V3-0324-Turbo",
+      "display_name": "DeepSeek V3 0324 Turbo"
+    },
+    {
+      "id": "meta-llama/Llama-4-Maverick-17B-128E-Instruct-Turbo",
+      "object": "model",
+      "created": 1700000000,
+      "owned_by": "meta-llama",
+      "model_name": "meta-llama/Llama-4-Maverick-17B-128E-Instruct-Turbo",
+      "display_name": "Llama 4 Maverick Turbo"
+    }
         ]
       };
 
